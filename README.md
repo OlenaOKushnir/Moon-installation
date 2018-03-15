@@ -28,9 +28,7 @@ sudo -E ./minikube cpus 2 start --vm-driver=none
 ## Useful commands for minikube:
    * `./minikube version`
    * `./minikube status`
-   * `./minikube dashboard` 
-   #it will be accessible outside at [IP of machine where Minikube installed]:30000),
-   #but sometimes you have to wait a couple of seconds
+   * `./minikube dashboard` - it will be accessible outside at [IP of machine where Minikube installed]:30000), but sometimes you have to wait a couple of seconds
  
  ## Useful commands for kubectl: 
     * `kubectl get nodes`
@@ -40,7 +38,7 @@ sudo -E ./minikube cpus 2 start --vm-driver=none
     * `kubectl delete deployment [name of the deployment]`
     * `kubectl delete service [name of the service]`
     * `kubectl describe service [name of the service]`
-    * etc
+     etc
 
 ## How to install [Moon](http://aerokube.com/moon/latest/):
 ```shell
