@@ -232,6 +232,8 @@ $ ./minikube service moon --url
 $ ./minikube service moon-api --url
 ```
 
+Attention! Hostnames will be different every time you create moon or moon-api.
+
 ## Run your tests against moon service like you do with regular Selenium:
 `http://[YourIP]:[Your Moon hostname]/wd/hub`
 
