@@ -236,7 +236,7 @@ $ ./minikube service moon-api --url
 `http://[YourIP]:[Your Moon hostname]/wd/hub`
 
 ## Check that moon-api returns statistics:
-`curl -s http://[YourIP]:[Your Moon hostname]/status`
+`$ curl -s http://[YourIP]:[Your Moon hostname]/status`
 
 ## How to uninstall Minikube: 
 ```shell
@@ -249,4 +249,4 @@ $ sudo rm -rf ~/.minikube
 `$ kubectl delete service, deployment moon`
 
 ## How to update moon-sessions: 
-`kubectl replace -f moon-sessions.yaml`
+`$ kubectl replace -f moon-sessions.yaml`
